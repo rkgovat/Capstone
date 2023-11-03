@@ -14,6 +14,6 @@
         public string PatientSSN { get; set;}
         public DateTime PatientDOB { get; set;}
         public bool PatientMinor { get; set; }
-        public int PatientHOHlD { get; set;}
+        public int PatientHOHID { get; set;}
     }
 }
