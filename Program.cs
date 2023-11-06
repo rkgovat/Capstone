@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using DTC_Dental.Models;
+
 namespace DTC_Dental
 {
     public class Program
@@ -8,6 +11,9 @@ namespace DTC_Dental
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            // Add EF Core DI
+            builder.Services.AddDbContext<DentistContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DentistContext")));
 
             var app = builder.Build();
 

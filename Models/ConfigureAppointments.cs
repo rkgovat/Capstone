@@ -16,7 +16,7 @@ namespace DTC_Dental.Models
                     PatientID = 1,
                     TypeID = 1,
                     AppointmentDate = DateTime.Parse("2000-11-11"),
-                    StartTime = TimeOnly.Parse("11:00")
+                    StartTime = TimeSpan.Parse("11:00")
                 },
                 new Appointment
                 {
@@ -25,7 +25,7 @@ namespace DTC_Dental.Models
                     PatientID = 2,
                     TypeID = 2,
                     AppointmentDate = DateTime.Parse("2000-11-11"),
-                    StartTime = TimeOnly.Parse("12:00")
+                    StartTime = TimeSpan.Parse("12:00")
                 },
                 new Appointment
                 {
@@ -34,7 +34,7 @@ namespace DTC_Dental.Models
                     PatientID = 3,
                     TypeID = 3,
                     AppointmentDate = DateTime.Parse("2000-11-11"),
-                    StartTime = TimeOnly.Parse("1:00")
+                    StartTime = TimeSpan.Parse("1:00")
                 },
                 new Appointment
                 {
@@ -43,7 +43,7 @@ namespace DTC_Dental.Models
                     PatientID = 4,
                     TypeID = 4,
                     AppointmentDate = DateTime.Parse("2000-11-11"),
-                    StartTime = TimeOnly.Parse("2:00")
+                    StartTime = TimeSpan.Parse("2:00")
                 },
                 new Appointment
                 {
@@ -52,7 +52,7 @@ namespace DTC_Dental.Models
                     PatientID = 5,
                     TypeID = 5,
                     AppointmentDate = DateTime.Parse("2000-11-11"),
-                    StartTime = TimeOnly.Parse("2:20")
+                    StartTime = TimeSpan.Parse("2:20")
                 },
                 new Appointment
                 {
@@ -61,7 +61,7 @@ namespace DTC_Dental.Models
                     PatientID = 6,
                     TypeID = 6,
                     AppointmentDate = DateTime.Parse("2000-11-11"),
-                    StartTime = TimeOnly.Parse("2:15")
+                    StartTime = TimeSpan.Parse("2:15")
                 },
                 new Appointment
                 {
@@ -70,7 +70,7 @@ namespace DTC_Dental.Models
                     PatientID = 7,
                     TypeID = 7,
                     AppointmentDate = DateTime.Parse("2000-11-11"),
-                    StartTime = TimeOnly.Parse("1:12")
+                    StartTime = TimeSpan.Parse("1:12")
                 },
                 new Appointment
                 {
@@ -79,7 +79,7 @@ namespace DTC_Dental.Models
                     PatientID = 8,
                     TypeID = 8,
                     AppointmentDate = DateTime.Parse("2000-11-11"),
-                    StartTime = TimeOnly.Parse("2:55")
+                    StartTime = TimeSpan.Parse("2:55")
                 },
                 new Appointment
                 {
@@ -88,7 +88,7 @@ namespace DTC_Dental.Models
                     PatientID = 9,
                     TypeID = 9,
                     AppointmentDate = DateTime.Parse("2000-11-11"),
-                    StartTime = TimeOnly.Parse("3:00")
+                    StartTime = TimeSpan.Parse("3:00")
                 },
                 new Appointment
                 {
@@ -97,7 +97,7 @@ namespace DTC_Dental.Models
                     PatientID = 10,
                     TypeID = 10,
                     AppointmentDate = DateTime.Parse("2000-11-11"),
-                    StartTime = TimeOnly.Parse("11:30")
+                    StartTime = TimeSpan.Parse("11:30")
                 }
             );
         }

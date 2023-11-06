@@ -23,6 +23,7 @@ namespace DTC_Dental.Models
         {
             // code that configures the DbSet entities goes here
             //base.OnModelCreating(modelBuilder);
+
             modelBuilder.ApplyConfiguration(new ConfigurePatients());
             modelBuilder.ApplyConfiguration(new ConfigureDentists());
             modelBuilder.ApplyConfiguration(new ConfigureServices());

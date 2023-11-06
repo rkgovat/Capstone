@@ -7,6 +7,8 @@ namespace DTC_Dental.Models
     {
         public void Configure(EntityTypeBuilder<CompletedService> entity)
         {
+            entity.HasKey(entity => new { entity.ServiceID, entity.VisitID });
+
             // seed initial data
             entity.HasData
             (
