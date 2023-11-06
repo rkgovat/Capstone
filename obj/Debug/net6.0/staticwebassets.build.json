@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0UsjfozMfXnG53L0mOBJ90qAOx4hTqsuH00yI1MyWt8=",
+  "Hash": "UAfJFFHKePhIyo4rThYpO8LGu94Ef+qXNkJoYCPC9n0=",
   "Source": "DTC_Dental",
   "BasePath": "_content/DTC_Dental",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\DTC_Dental\\wwwroot\\images\\Narwhal_Dentist.jpg",
+      "SourceId": "DTC_Dental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\DTC_Dental\\wwwroot\\",
+      "BasePath": "_content/DTC_Dental",
+      "RelativePath": "images/Narwhal_Dentist.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Narwhal_Dentist.jpg"
     },
     {
       "Identity": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\DTC_Dental\\wwwroot\\js\\site.js",

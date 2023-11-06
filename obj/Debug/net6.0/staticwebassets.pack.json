@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\DTC_Dental\\wwwroot\\images\\Narwhal_Dentist.jpg",
+      "PackagePath": "staticwebassets\\images\\Narwhal_Dentist.jpg"
+    },
+    {
       "Id": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\DTC_Dental\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
