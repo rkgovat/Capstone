@@ -2896,11 +2896,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\DTC_Dental\\DTC_Dental.csproj",
+      "projectUniqueName": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\Capstone\\DTC_Dental.csproj",
       "projectName": "DTC_Dental",
-      "projectPath": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\DTC_Dental\\DTC_Dental.csproj",
+      "projectPath": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\Capstone\\DTC_Dental.csproj",
       "packagesPath": "C:\\Users\\rgova\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\DTC_Dental\\obj\\",
+      "outputPath": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\Capstone\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rgova\\AppData\\Roaming\\NuGet\\NuGet.Config",

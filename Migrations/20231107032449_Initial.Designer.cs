@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DTC_Dental.Migrations
 {
     [DbContext(typeof(DentistContext))]
-    [Migration("20231106202240_Initial")]
+    [Migration("20231107032449_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -56,7 +56,7 @@ namespace DTC_Dental.Migrations
                         new
                         {
                             AppointmentID = 1,
-                            AppointmentDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            AppointmentDate = new DateTime(2009, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DentistID = 1,
                             PatientID = 1,
                             StartTime = new TimeSpan(0, 11, 0, 0, 0),
@@ -65,7 +65,7 @@ namespace DTC_Dental.Migrations
                         new
                         {
                             AppointmentID = 2,
-                            AppointmentDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            AppointmentDate = new DateTime(2010, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DentistID = 2,
                             PatientID = 2,
                             StartTime = new TimeSpan(0, 12, 0, 0, 0),
@@ -83,7 +83,7 @@ namespace DTC_Dental.Migrations
                         new
                         {
                             AppointmentID = 4,
-                            AppointmentDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            AppointmentDate = new DateTime(2001, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DentistID = 4,
                             PatientID = 4,
                             StartTime = new TimeSpan(0, 2, 0, 0, 0),
@@ -92,7 +92,7 @@ namespace DTC_Dental.Migrations
                         new
                         {
                             AppointmentID = 5,
-                            AppointmentDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            AppointmentDate = new DateTime(2000, 1, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DentistID = 5,
                             PatientID = 5,
                             StartTime = new TimeSpan(0, 2, 20, 0, 0),
@@ -101,7 +101,7 @@ namespace DTC_Dental.Migrations
                         new
                         {
                             AppointmentID = 6,
-                            AppointmentDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            AppointmentDate = new DateTime(2010, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DentistID = 1,
                             PatientID = 6,
                             StartTime = new TimeSpan(0, 2, 15, 0, 0),
@@ -110,7 +110,7 @@ namespace DTC_Dental.Migrations
                         new
                         {
                             AppointmentID = 7,
-                            AppointmentDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            AppointmentDate = new DateTime(2012, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DentistID = 2,
                             PatientID = 7,
                             StartTime = new TimeSpan(0, 1, 12, 0, 0),
@@ -119,7 +119,7 @@ namespace DTC_Dental.Migrations
                         new
                         {
                             AppointmentID = 8,
-                            AppointmentDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            AppointmentDate = new DateTime(2010, 12, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DentistID = 3,
                             PatientID = 8,
                             StartTime = new TimeSpan(0, 2, 55, 0, 0),
@@ -128,7 +128,7 @@ namespace DTC_Dental.Migrations
                         new
                         {
                             AppointmentID = 9,
-                            AppointmentDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            AppointmentDate = new DateTime(2009, 1, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DentistID = 4,
                             PatientID = 9,
                             StartTime = new TimeSpan(0, 3, 0, 0, 0),
@@ -137,7 +137,7 @@ namespace DTC_Dental.Migrations
                         new
                         {
                             AppointmentID = 10,
-                            AppointmentDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            AppointmentDate = new DateTime(2009, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DentistID = 5,
                             PatientID = 10,
                             StartTime = new TimeSpan(0, 11, 30, 0, 0),
@@ -412,35 +412,35 @@ namespace DTC_Dental.Migrations
                             DentistID = 1,
                             DentistFirstName = "Jan",
                             DentistLastName = "Run",
-                            HireDate = new DateTime(2000, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            HireDate = new DateTime(1985, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             DentistID = 2,
                             DentistFirstName = "Ron",
                             DentistLastName = "Jun",
-                            HireDate = new DateTime(2000, 11, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            HireDate = new DateTime(1997, 11, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             DentistID = 3,
                             DentistFirstName = "Jason",
                             DentistLastName = "Fun",
-                            HireDate = new DateTime(2000, 10, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            HireDate = new DateTime(1993, 10, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             DentistID = 4,
                             DentistFirstName = "Jammy",
                             DentistLastName = "Dillan",
-                            HireDate = new DateTime(2000, 9, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            HireDate = new DateTime(1979, 9, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             DentistID = 5,
                             DentistFirstName = "Jonh",
                             DentistLastName = "Ronal",
-                            HireDate = new DateTime(2000, 8, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            HireDate = new DateTime(1988, 8, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
 
@@ -522,7 +522,7 @@ namespace DTC_Dental.Migrations
                         {
                             PatientID = 2,
                             PatientCity = "Austin",
-                            PatientDOB = new DateTime(2000, 2, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PatientDOB = new DateTime(1989, 2, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PatientEmail = "Joseph@Gmail.com",
                             PatientFirstName = "Joseph",
                             PatientHOHID = 0,
@@ -538,7 +538,7 @@ namespace DTC_Dental.Migrations
                         {
                             PatientID = 3,
                             PatientCity = "Austin",
-                            PatientDOB = new DateTime(2000, 3, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PatientDOB = new DateTime(1978, 3, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PatientEmail = "Hanson@Gmail.com",
                             PatientFirstName = "Hanson",
                             PatientHOHID = 0,
@@ -586,7 +586,7 @@ namespace DTC_Dental.Migrations
                         {
                             PatientID = 6,
                             PatientCity = "Austin",
-                            PatientDOB = new DateTime(2000, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PatientDOB = new DateTime(1997, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PatientEmail = "Miley@Gmail.com",
                             PatientFirstName = "Miley",
                             PatientHOHID = 0,
@@ -634,7 +634,7 @@ namespace DTC_Dental.Migrations
                         {
                             PatientID = 9,
                             PatientCity = "Austin",
-                            PatientDOB = new DateTime(2000, 9, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PatientDOB = new DateTime(1973, 9, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PatientEmail = "Dalvin@Gmail.com",
                             PatientFirstName = "Dalvin",
                             PatientHOHID = 0,
@@ -650,7 +650,7 @@ namespace DTC_Dental.Migrations
                         {
                             PatientID = 10,
                             PatientCity = "Austin",
-                            PatientDOB = new DateTime(2000, 10, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PatientDOB = new DateTime(1981, 10, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PatientEmail = "Diana@Gmail.com",
                             PatientFirstName = "Diana",
                             PatientHOHID = 0,
@@ -666,7 +666,7 @@ namespace DTC_Dental.Migrations
                         {
                             PatientID = 11,
                             PatientCity = "Austin",
-                            PatientDOB = new DateTime(2000, 11, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PatientDOB = new DateTime(1996, 11, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PatientEmail = "Josh@Gmail.com",
                             PatientFirstName = "Josh",
                             PatientHOHID = 0,
@@ -682,7 +682,7 @@ namespace DTC_Dental.Migrations
                         {
                             PatientID = 12,
                             PatientCity = "Austin",
-                            PatientDOB = new DateTime(2000, 12, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PatientDOB = new DateTime(1990, 12, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PatientEmail = "Drake@Gmail.com",
                             PatientFirstName = "Drake",
                             PatientHOHID = 0,
@@ -714,7 +714,7 @@ namespace DTC_Dental.Migrations
                         {
                             PatientID = 14,
                             PatientCity = "Austin",
-                            PatientDOB = new DateTime(2000, 2, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PatientDOB = new DateTime(1957, 2, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PatientEmail = "Daffy@Gmail.com",
                             PatientFirstName = "Daffy",
                             PatientHOHID = 0,
@@ -730,12 +730,12 @@ namespace DTC_Dental.Migrations
                         {
                             PatientID = 15,
                             PatientCity = "Austin",
-                            PatientDOB = new DateTime(2000, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PatientDOB = new DateTime(2010, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PatientEmail = "Dan@Gmail.com",
                             PatientFirstName = "Dan",
-                            PatientHOHID = 0,
+                            PatientHOHID = 1,
                             PatientLastName = "Run",
-                            PatientMinor = false,
+                            PatientMinor = true,
                             PatientPhone = "3924454397",
                             PatientSSN = "123456789",
                             PatientState = "TX",
@@ -883,70 +883,70 @@ namespace DTC_Dental.Migrations
                             VisitID = 1,
                             DentistID = 1,
                             PatientID = 1,
-                            VisitDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            VisitDate = new DateTime(2002, 8, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             VisitID = 2,
                             DentistID = 2,
                             PatientID = 2,
-                            VisitDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            VisitDate = new DateTime(2019, 11, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             VisitID = 3,
                             DentistID = 3,
                             PatientID = 3,
-                            VisitDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            VisitDate = new DateTime(2022, 11, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             VisitID = 4,
                             DentistID = 4,
                             PatientID = 4,
-                            VisitDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            VisitDate = new DateTime(2020, 2, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             VisitID = 5,
                             DentistID = 5,
                             PatientID = 5,
-                            VisitDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            VisitDate = new DateTime(2010, 12, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             VisitID = 6,
                             DentistID = 1,
                             PatientID = 6,
-                            VisitDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            VisitDate = new DateTime(2008, 7, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             VisitID = 7,
                             DentistID = 2,
                             PatientID = 7,
-                            VisitDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            VisitDate = new DateTime(2009, 9, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             VisitID = 8,
                             DentistID = 3,
                             PatientID = 8,
-                            VisitDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            VisitDate = new DateTime(2001, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             VisitID = 9,
                             DentistID = 4,
                             PatientID = 9,
-                            VisitDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            VisitDate = new DateTime(2023, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             VisitID = 10,
                             DentistID = 5,
                             PatientID = 10,
-                            VisitDate = new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            VisitDate = new DateTime(2017, 7, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
 #pragma warning restore 612, 618

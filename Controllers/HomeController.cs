@@ -1,4 +1,11 @@
-﻿using DTC_Dental.Models;
+﻿//  AUTHOR:     Judy Nguyen and Megan Konvicka
+//  COURSE:     ISTM 415
+//  PROGRAM:    Narwhal Dental Web App
+//  PURPOSE:    The home controller manages the HttpRequests received by the web server
+//  HONOR CODE: On my honor, as an Aggie, I have neither given 
+//              nor received unauthorized aid on this academic work.
+
+using DTC_Dental.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jr1I37NG3WkB8Lx16bqMxJ1S9sNFMoknPqX2kfsRNZMsne8/+2b7Nsi10JgMBP5FQ2ABafJmBRdBAcMUV+Ytcw==",
+  "dgSpecHash": "ClmCNYgE68L4moZ3L+m0nFBrmuBfjbomhHty8rCDDv6qdQ1sNoJ2wb6FP/l8qeDS1OlAR4pxKwndUpOT8gE1IQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\DTC_Dental\\DTC_Dental.csproj",
+  "projectFilePath": "C:\\Users\\rgova\\Desktop\\JudyCapstone\\Capstone\\DTC_Dental.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rgova\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\rgova\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

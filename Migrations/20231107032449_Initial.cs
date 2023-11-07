@@ -158,16 +158,16 @@ namespace DTC_Dental.Migrations
                 columns: new[] { "AppointmentID", "AppointmentDate", "DentistID", "PatientID", "StartTime", "TypeID" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, 1, new TimeSpan(0, 11, 0, 0, 0), 1 },
-                    { 2, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 2, 2, new TimeSpan(0, 12, 0, 0, 0), 2 },
+                    { 1, new DateTime(2009, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, 1, new TimeSpan(0, 11, 0, 0, 0), 1 },
+                    { 2, new DateTime(2010, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 2, 2, new TimeSpan(0, 12, 0, 0, 0), 2 },
                     { 3, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 3, 3, new TimeSpan(0, 1, 0, 0, 0), 3 },
-                    { 4, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 4, 4, new TimeSpan(0, 2, 0, 0, 0), 4 },
-                    { 5, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 5, 5, new TimeSpan(0, 2, 20, 0, 0), 5 },
-                    { 6, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, 6, new TimeSpan(0, 2, 15, 0, 0), 6 },
-                    { 7, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 2, 7, new TimeSpan(0, 1, 12, 0, 0), 7 },
-                    { 8, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 3, 8, new TimeSpan(0, 2, 55, 0, 0), 8 },
-                    { 9, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 4, 9, new TimeSpan(0, 3, 0, 0, 0), 9 },
-                    { 10, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 5, 10, new TimeSpan(0, 11, 30, 0, 0), 10 }
+                    { 4, new DateTime(2001, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 4, 4, new TimeSpan(0, 2, 0, 0, 0), 4 },
+                    { 5, new DateTime(2000, 1, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 5, 5, new TimeSpan(0, 2, 20, 0, 0), 5 },
+                    { 6, new DateTime(2010, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, 6, new TimeSpan(0, 2, 15, 0, 0), 6 },
+                    { 7, new DateTime(2012, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 2, 7, new TimeSpan(0, 1, 12, 0, 0), 7 },
+                    { 8, new DateTime(2010, 12, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 3, 8, new TimeSpan(0, 2, 55, 0, 0), 8 },
+                    { 9, new DateTime(2009, 1, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 4, 9, new TimeSpan(0, 3, 0, 0, 0), 9 },
+                    { 10, new DateTime(2009, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), 5, 10, new TimeSpan(0, 11, 30, 0, 0), 10 }
                 });
 
             migrationBuilder.InsertData(
@@ -192,11 +192,11 @@ namespace DTC_Dental.Migrations
                 columns: new[] { "DentistID", "DentistFirstName", "DentistLastName", "HireDate" },
                 values: new object[,]
                 {
-                    { 1, "Jan", "Run", new DateTime(2000, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 2, "Ron", "Jun", new DateTime(2000, 11, 2, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 3, "Jason", "Fun", new DateTime(2000, 10, 3, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 4, "Jammy", "Dillan", new DateTime(2000, 9, 4, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 5, "Jonh", "Ronal", new DateTime(2000, 8, 4, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                    { 1, "Jan", "Run", new DateTime(1985, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 2, "Ron", "Jun", new DateTime(1997, 11, 2, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 3, "Jason", "Fun", new DateTime(1993, 10, 3, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 4, "Jammy", "Dillan", new DateTime(1979, 9, 4, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 5, "Jonh", "Ronal", new DateTime(1988, 8, 4, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                 });
 
             migrationBuilder.InsertData(
@@ -205,20 +205,20 @@ namespace DTC_Dental.Migrations
                 values: new object[,]
                 {
                     { 1, "Austin", new DateTime(2000, 1, 11, 0, 0, 0, 0, DateTimeKind.Unspecified), "Rohan@Gmail.com", "Rohan", 0, "Govathoti", false, "5127787879", "123456789", "TX", "101 Chillip", "78753" },
-                    { 2, "Austin", new DateTime(2000, 2, 12, 0, 0, 0, 0, DateTimeKind.Unspecified), "Joseph@Gmail.com", "Joseph", 0, "Pham", false, "5127787394", "133456789", "TX", "102 Chillip", "78753" },
-                    { 3, "Austin", new DateTime(2000, 3, 13, 0, 0, 0, 0, DateTimeKind.Unspecified), "Hanson@Gmail.com", "Hanson", 0, "Nguyen", false, "5122228493", "143456789", "TX", "103 Chillip", "78753" },
+                    { 2, "Austin", new DateTime(1989, 2, 12, 0, 0, 0, 0, DateTimeKind.Unspecified), "Joseph@Gmail.com", "Joseph", 0, "Pham", false, "5127787394", "133456789", "TX", "102 Chillip", "78753" },
+                    { 3, "Austin", new DateTime(1978, 3, 13, 0, 0, 0, 0, DateTimeKind.Unspecified), "Hanson@Gmail.com", "Hanson", 0, "Nguyen", false, "5122228493", "143456789", "TX", "103 Chillip", "78753" },
                     { 4, "Austin", new DateTime(2000, 4, 14, 0, 0, 0, 0, DateTimeKind.Unspecified), "Jason@Gmail.com", "Jason", 0, "Nguyen", false, "5127784905", "125456789", "TX", "104 Chillip", "78753" },
                     { 5, "Austin", new DateTime(2000, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "Zahra@Gmail.com", "Zahra", 0, "Karim", false, "5128878473", "123466789", "TX", "105 Chillip", "78753" },
-                    { 6, "Austin", new DateTime(2000, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified), "Miley@Gmail.com", "Miley", 0, "Cyrus", false, "5127787473", "123457789", "TX", "106 Chillip", "78753" },
+                    { 6, "Austin", new DateTime(1997, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified), "Miley@Gmail.com", "Miley", 0, "Cyrus", false, "5127787473", "123457789", "TX", "106 Chillip", "78753" },
                     { 7, "Austin", new DateTime(2000, 7, 17, 0, 0, 0, 0, DateTimeKind.Unspecified), "Donal@Gmail.com", "Donal", 0, "Duck", false, "5124445546", "123459789", "TX", "107 Chillip", "78753" },
                     { 8, "Austin", new DateTime(2000, 8, 18, 0, 0, 0, 0, DateTimeKind.Unspecified), "Kelly@Gmail.com", "Kelly", 0, "Tran", false, "5126635465", "123456889", "TX", "108 Chillip", "78753" },
-                    { 9, "Austin", new DateTime(2000, 9, 19, 0, 0, 0, 0, DateTimeKind.Unspecified), "Dalvin@Gmail.com", "Dalvin", 0, "Kelly", false, " 5125565686", "923456789", "TX", "109 Chillip", "78753" },
-                    { 10, "Austin", new DateTime(2000, 10, 20, 0, 0, 0, 0, DateTimeKind.Unspecified), "Diana@Gmail.com", "Diana", 0, "Gutiz", false, "5126676748", "103456789", "TX", "1231 Chillip", "78753" },
-                    { 11, "Austin", new DateTime(2000, 11, 21, 0, 0, 0, 0, DateTimeKind.Unspecified), "Josh@Gmail.com", "Josh", 0, "Drake", false, "5126676543", "113456789", "TX", "10231 Chillip", " 78753" },
-                    { 12, "Austin", new DateTime(2000, 12, 22, 0, 0, 0, 0, DateTimeKind.Unspecified), "Drake@Gmail.com", "Drake", 0, "Josh", false, " 5127736489", "198456789", "TX", "241 Chillip", "8753" },
+                    { 9, "Austin", new DateTime(1973, 9, 19, 0, 0, 0, 0, DateTimeKind.Unspecified), "Dalvin@Gmail.com", "Dalvin", 0, "Kelly", false, " 5125565686", "923456789", "TX", "109 Chillip", "78753" },
+                    { 10, "Austin", new DateTime(1981, 10, 20, 0, 0, 0, 0, DateTimeKind.Unspecified), "Diana@Gmail.com", "Diana", 0, "Gutiz", false, "5126676748", "103456789", "TX", "1231 Chillip", "78753" },
+                    { 11, "Austin", new DateTime(1996, 11, 21, 0, 0, 0, 0, DateTimeKind.Unspecified), "Josh@Gmail.com", "Josh", 0, "Drake", false, "5126676543", "113456789", "TX", "10231 Chillip", " 78753" },
+                    { 12, "Austin", new DateTime(1990, 12, 22, 0, 0, 0, 0, DateTimeKind.Unspecified), "Drake@Gmail.com", "Drake", 0, "Josh", false, " 5127736489", "198456789", "TX", "241 Chillip", "8753" },
                     { 13, "Austin", new DateTime(2000, 1, 23, 0, 0, 0, 0, DateTimeKind.Unspecified), "Esther@Gmail.com", "Ester", 0, "Lovato", false, "5178673645", "123456789", "TX", "141 Chillip", "78753" },
-                    { 14, "Austin", new DateTime(2000, 2, 24, 0, 0, 0, 0, DateTimeKind.Unspecified), "Daffy@Gmail.com", "Daffy", 0, "Duck", false, "5126954367", "123456789", "TX", "1271 Chillip", "78753" },
-                    { 15, "Austin", new DateTime(2000, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), "Dan@Gmail.com", "Dan", 0, "Run", false, "3924454397", "123456789", "TX", "1261 Chillip", "78753" }
+                    { 14, "Austin", new DateTime(1957, 2, 24, 0, 0, 0, 0, DateTimeKind.Unspecified), "Daffy@Gmail.com", "Daffy", 0, "Duck", false, "5126954367", "123456789", "TX", "1271 Chillip", "78753" },
+                    { 15, "Austin", new DateTime(2010, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), "Dan@Gmail.com", "Dan", 1, "Run", true, "3924454397", "123456789", "TX", "1261 Chillip", "78753" }
                 });
 
             migrationBuilder.InsertData(
@@ -248,16 +248,16 @@ namespace DTC_Dental.Migrations
                 columns: new[] { "VisitID", "DentistID", "PatientID", "VisitDate" },
                 values: new object[,]
                 {
-                    { 1, 1, 1, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 2, 2, 2, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 3, 3, 3, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 4, 4, 4, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 5, 5, 5, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 6, 1, 6, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 7, 2, 7, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 8, 3, 8, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 9, 4, 9, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 10, 5, 10, new DateTime(2000, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                    { 1, 1, 1, new DateTime(2002, 8, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 2, 2, 2, new DateTime(2019, 11, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 3, 3, 3, new DateTime(2022, 11, 19, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 4, 4, 4, new DateTime(2020, 2, 3, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 5, 5, 5, new DateTime(2010, 12, 11, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 6, 1, 6, new DateTime(2008, 7, 7, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 7, 2, 7, new DateTime(2009, 9, 30, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 8, 3, 8, new DateTime(2001, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 9, 4, 9, new DateTime(2023, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 10, 5, 10, new DateTime(2017, 7, 20, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                 });
         }
 

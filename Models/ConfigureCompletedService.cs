@@ -1,4 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿//  AUTHOR:     Judy Nguyen and Megan Konvicka
+//  COURSE:     ISTM 415
+//  PROGRAM:    Narwhal Dental Web App
+//  PURPOSE:    The completed appointment model represents Narwhal Dental completed appointments. 
+//  HONOR CODE: On my honor, as an Aggie, I have neither given 
+//              nor received unauthorized aid on this academic work.
+
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace DTC_Dental.Models
